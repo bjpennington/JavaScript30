@@ -79,6 +79,7 @@
     const minuteHand = document.querySelector('.min-hand');
     const hourHand = document.querySelector('.hour-hand');
 
+
     function setDate() {
       // get current date
       const now = new Date();
@@ -99,6 +100,7 @@
       hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
     }
 
+  // run setDate every second
     setInterval(setDate, 1000);
 
   </script>
